@@ -1,0 +1,228 @@
+{
+    "nav": {
+        "login": "Login",
+        "signUp": "Sign Up",
+        "home": "Home",
+        "contactUs": "Contact Us",
+        "allSections": "All Sections",
+        "searchProducts": "Search for products...",
+        "categories": "Categories",
+        "faq": "FAQ"
+    },
+    "new_footer": {
+        "description": "We are a leading e-commerce store offering the latest products at the best prices. We always strive to provide a distinctive and easy shopping experience for our valued customers.",
+        "location": {
+            "title": "Location",
+            "address": "Palestine - Gaza - Al-Rimal - Palestine Street - Abdul Rahim Mahmoud - Engineers Building"
+        },
+        "contactUs": {
+            "title": "Contact Us",
+            "description": "We're here to help you. Contact us anytime!",
+            "phone": {
+                "label": "Phone Number",
+                "number": "+972 59 858 4191"
+            },
+            "email": {
+                "label": "Email",
+                "address": "vendorx@info.com"
+            }
+        },
+        "copyright": "All rights reserved © "
+    },
+    "footer": {
+        "copyright": "© {year} VendorX. All rights reserved.",
+        "description": "A modern e-commerce website specializing in clothing, offering a wide range of contemporary designs that combine elegance and comfort. We provide high-quality products at competitive prices.",
+        "sections": "Sections",
+        "socialMediaTitle": "Connect with us on social media",
+        "nav": {
+            "home": "Home",
+            "chatBot": "Chat",
+            "contact": "Contact Us",
+            "faq": "FAQ"
+        }
+    },
+    "toast": {
+        "loginFirst": "Login in first",
+        "error": "Error",
+        "success": "Success",
+        "enter_coupon": "Please Enter Coupon",
+        "address_updated": "Address Updated Successfully",
+        "address_added": "Address Added Successfully",
+        "validation_error": "Validation Error",
+        "an_error_occurred": "An error occurred",
+        "order_created": "Order Created Successfully",
+        "choose_address": "Please Choose Address",
+        "cart_is_empty": "Cart is Empty",
+        "text_copied": "Text copied to clipboard",
+        "fialed_to_copy": "Failed to copy text:"
+    },
+    "bottomSection": {
+        "home": "Home",
+        "chatBot": "Chat Bot",
+        "categories": "Categories",
+        "contactUs": "Contact Us",
+        "faq": "FAQ",
+        "searchPlaceholder": "Search for products ...",
+        "orders": "My Orders"
+    },
+    "searching": "Searching...",
+    "noResultsFound": "No results found",
+    "viewAllResults": "View all results",
+    "currency": "USD",
+    "markets": "Markets",
+    "stores": "Stores",
+    "products": "Products",
+    "no_notifications": "No notifications found",
+    "no_notifications_description": "There are no notifications available at the moment, please wait and notifications will be added soon",
+    "notifications": "Notifications",
+    "search_notifications": "Search for notifications",
+    "mark_all_read": "Mark All as Read",
+    "view_all_notifications": "View All Notifications",
+    "categories": {
+        "listTitle": "Categories List",
+        "subtitle": "Every category, a different touch of beauty",
+        "section": "section",
+        "product": "product",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "backToSchool": {
+        "badge": "Back to School with the Best Preparation",
+        "subtitle": "Get everything you need for the new year from one place at prices that suit you!",
+        "title": "Back to School",
+        "description": "Best-selling products for the school season",
+        "discoverMore": "Discover More",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "newProducts": {
+        "badge": "New Products Just Arrived Especially for You",
+        "bannerTitle": "Unique Looks for Those Seeking True Excellence",
+        "discoverMore": "Discover More",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "twoImageSection": {
+        "ramadanTitle": "Ramadan Mubarak",
+        "ramadanSubtitle": "Best Products for the Holy Season",
+        "discoverMore": "Discover More",
+        "preparationTitle": "Ramadan is near! Get all your preparations from one place at the best price!",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "backToWinter": {
+        "badge": "Winter Season Return",
+        "bannerTitle": "Your winter starts here, everything you need in one place!",
+        "discoverMore": "Discover More",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "simpleSection": {
+        "title": "Get inspired by new options from our collection specially selected for you",
+        "description": "We've selected a collection of pieces that suit your taste and complement this product.",
+        "nextButton": "Next",
+        "prevButton": "Prev"
+    },
+    "free_delievery_for_orders_up_to_199": "Free delievery for orders up to 199 EGP",
+    "new": "New",
+    "sold": "Sold",
+    "menu": "Menu",
+    "no_products_found": "No products found",
+    "cart_title": "Cart",
+    "discount": "Discount",
+    "no_results": "No results",
+    "no_results_description": "There are no results available at the moment, please wait and results will be added soon",
+    "common": {
+        "results": "Results",
+        "element_found": "{element} Element found",
+        "searching": "Searching...",
+        "productFound": "Product Found",
+        "productsFound": "Products Found",
+        "viewAllResults": "View All Results",
+        "noProductsFound": "No products found for \"{query}\""
+    },
+    "product_details": {
+        "fits": "Fits",
+        "loginFirst": "Login in first",
+        "followed_store_success": "Followed Store Successfully",
+        "brand": "Brand",
+        "unfollow_store": "Unfollow Store",
+        "login_first": "Please log in first to access this feature.",
+        "product_details": "Product Details",
+        "sales_label": "Sales",
+        "total": "Total",
+        "product_description": "Product Description",
+        "ratings_reviews": "Ratings and Reviews",
+        "average_rating": "4.5",
+        "total_reviews": "({count} New Reviews)",
+        "related_products": "Related Products",
+        "products_you_might_like": "Products You Might Like",
+        "view_more": "View More",
+        "home": "Home",
+        "women_clothing": "Women's Clothing",
+        "dresses": "Dresses",
+        "discount": "{percentage}% Off",
+        "available_quantity": "Available Quantity",
+        "peaces": "{count} pieces",
+        "available_in_store": "Available in Store",
+        "color": "Color",
+        "size": "Size",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to Cart",
+        "buy_now": "Buy Now",
+        "favorite": "Favorite",
+        "store_name": "Zara Arabia Store",
+        "store_description": "A store specializing in modern and traditional women's fashion. We offer the highest quality clothing and accessories at great prices and high quality. We strive to provide the best shopping experience for our valued customers.",
+        "location": "Egypt, Cairo",
+        "products_count": "Products",
+        "followers_count": "Followers",
+        "rating": "Rating",
+        "follow_store": "Follow Store",
+        "visit_store": "Visit Store",
+        "toast": {
+            "error": "Error"
+        }
+    },
+    "small_cart_popUp": {
+        "title": "Review Your Products",
+        "addedProducts": "Added Products",
+        "total": "Total",
+        "items": "Items",
+        "goToCart": "Go to Cart",
+        "totalLabel": "Total:",
+        "itemsCount": "({count}) Items"
+    },
+    "nextButton": "Next",
+    "prevButton": "Prev",
+    "selectFromMenu": "Select From Menu",
+    "total": "Total :",
+    "coupon": {
+        "label": "Offer/Coupon",
+        "validMessage": "You got a discount on the product price thanks to the discount code you used. Enjoy a great shopping experience with us!",
+        "invalidMessage": "Invalid discount code. Please try again."
+    },
+    "cart": {
+        "pageTitle": "Everything You Want to Buy",
+        "requiredProducts": "Required Products",
+        "products": "products",
+        "orderDetails": "Order Details",
+        "deliveryAddressPrompt": "Choose delivery address or add a new one! 🚚✨",
+        "deliveryAddress": "Delivery Address",
+        "paymentMethodPrompt": "Choose payment method easily and securely 🚚✨",
+        "paymentMethod": "Payment Method",
+        "accountSummary": "Account Summary",
+        "subtotalBeforeDiscount": "Subtotal (before discounts)",
+        "productDiscounts": "Product Discounts",
+        "totalAfterProductDiscounts": "Total after product discounts",
+        "couponDiscount": "Coupon Discount",
+        "shippingFees": "Shipping Fees",
+        "free": "Free",
+        "finalTotalAmount": "Final Total Amount",
+        "totalSavings": "Total Savings: {{amount}} 🎉",
+        "confirmOrder": "Confirm Order",
+        "currency": "EGP",
+        "title": "No Products in Cart",
+        "description": "No products were found in the cart on this page. Please add new products.",
+        "addProductsButton": "Add Products to Cart"
+    }
+}
