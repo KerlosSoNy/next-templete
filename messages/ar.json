@@ -9,6 +9,34 @@
         "categories": "الاصناف",
         "faq": "الاسئلة الشائعة"
     },
+    "navbar": {
+        "home": "الرئيسية",
+        "products": "المنتجات",
+        "contact_us": "اتصل بنا",
+        "about": "عن مهره",
+        "login": "تسجيل الدخول",
+        "signup": "انشاء حساب",
+        "myOrders": "طلباتي",
+        "favorite": "المفضلة",
+        "categories": "الفئات"
+    },
+    "profile_drow_down": {
+        "profile": "الملف الشخصي",
+        "address": "العناوين",
+        "logout": "تسجيل الخروج"
+    },
+    "notifications": {
+        "title": "التنبيهات",
+        "all": "الكل",
+        "not_readed": "غير مقروءة",
+        "show_more": "اظهار المزيد",
+        "from_minutes_ago": "منذ {count} دقائق",
+        "from_hours_ago": "منذ {count} ساعات",
+        "from_days_ago": "منذ {count} أيام",
+        "from_minutes_later": "بعد {count} دقائق",
+        "from_hours_later": "بعد {count} ساعات",
+        "from_days_later": "بعد {count} أيام"
+    },
     "new_footer": {
         "description": "نحن متجر إلكتروني رائد يوفر أحدث المنتجات بأفضل الأسعار. نسعى دائماً لتقديم تجربة تسوق مميزة وسهلة لعملائنا الكرام.",
         "location": {
@@ -59,6 +87,7 @@
     "bottomSection": {
         "home": "الرئيسية",
         "categories": "الفئات",
+        "about": "عن مهره",
         "chatBot": "شات بوت",
         "contactUs": "تواصل معنا",
         "faq": "الأسئلة الشائعة",
@@ -74,7 +103,6 @@
     "products": "المنتجات",
     "no_notifications": "لا يوجد اشعارات",
     "no_notifications_description": "لا يوجد اشعارات حتى الان، يرجى الانتظار وسوف يتم اضافتها قريبا",
-    "notifications": "التنبيهات",
     "search_notifications": "البحث عن تنبيهات",
     "mark_all_read": "تم قراءة الكل",
     "view_all_notifications": "عرض جميع التنبيهات",

@@ -16,36 +16,44 @@ export default function FooterSocialMedia() {
         twitter_url,
     } = webObject
     return (
-        <div className="flex  flex-row gap-4">
+        <div className="flex  flex-row gap-4 pt-3.5">
             {/* Linkedin */}
-            <Link href={linkedin_url || ''} className="w-[34px] h-[34px] rounded-full bg-[#fff] flex items-center justify-center border-[1px] border-[#4A3F35] outline-4 outline-[#fff]">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_333_10388)">
-                        <path fillRule="evenodd" clipRule="evenodd" d="M4.95962 5.33943H7.51896V6.6515H7.556C7.91241 6.01208 8.78394 5.33943 10.0836 5.33943C12.7861 5.33943 13.2859 7.02127 13.2859 9.20917V13.666H10.6168V9.71521C10.6168 8.77341 10.5972 7.56102 9.229 7.56102C7.83925 7.56102 7.62627 8.58625 7.62627 9.6466V13.666H4.9596V5.33943H4.95962ZM3.10925 3.02652C3.10925 3.79263 2.48752 4.41437 1.72141 4.41437C0.955299 4.41437 0.333344 3.79263 0.333344 3.02652C0.333344 2.26041 0.955299 1.63867 1.72141 1.63867C2.48752 1.63867 3.10925 2.26041 3.10925 3.02652ZM0.333344 5.33943H3.10925V13.666H0.333344V5.33943Z" fill="#4A3F35" />
+            <Link href={linkedin_url || ''} className="w-8 h-8 rounded-full bg-[#CFAA45] flex items-center justify-center border border-[#fff] outline-4 outline-[#CFAA45]">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_166_20943)">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M4.35415 4.16275H6.76295V5.39765H6.79781C7.13326 4.79584 7.95352 4.16275 9.1767 4.16275C11.7203 4.16275 12.1907 5.74567 12.1907 7.80487V11.9995H9.67861V8.28114C9.67861 7.39474 9.66015 6.25367 8.3724 6.25367C7.0644 6.25367 6.86394 7.21858 6.86394 8.21656V11.9995H4.35413V4.16275H4.35415ZM2.61263 1.9859C2.61263 2.70694 2.02747 3.29211 1.30642 3.29211C0.585371 3.29211 0 2.70694 0 1.9859C0 1.26485 0.585371 0.679688 1.30642 0.679688C2.02747 0.679688 2.61263 1.26485 2.61263 1.9859ZM0 4.16275H2.61263V11.9995H0V4.16275Z" fill="white" />
                     </g>
                     <defs>
-                        <clipPath id="clip0_333_10388">
-                            <rect width="12.9524" height="12.9524" fill="white" transform="translate(0.333344 0.916504)" />
+                        <clipPath id="clip0_166_20943">
+                            <rect width="12.1905" height="12.1905" fill="white" />
                         </clipPath>
                     </defs>
                 </svg>
             </Link>
             {/* X */}
-            <Link href={twitter_url || ""} className="w-[34px] h-[34px] rounded-full bg-[#fff] flex items-center justify-center border-[1px] border-[#4A3F35] outline-4 outline-[#fff]">
-                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.6871 0.916504H13.9226L9.03999 6.49553L14.7836 14.0885H10.2877L6.76382 9.4845L2.73605 14.0885H0.496908L5.71832 8.11964L0.212158 0.916504H4.82218L8.00421 5.12461L11.6871 0.916504ZM10.9021 12.7521H12.1401L4.14765 2.183H2.81801L10.9021 12.7521Z" fill="#4A3F35" />
+            <Link href={twitter_url || ""} className="w-8 h-8 rounded-full bg-[#CFAA45] flex items-center justify-center border border-[#fff] outline-4 outline-[#CFAA45]">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clipPath="url(#clip0_166_20945)">
+                        <path d="M10.8 0.660156H12.904L8.30857 5.91101L13.7143 13.0573H9.48286L6.16629 8.72416L2.37543 13.0573H0.268L5.18229 7.43958L0 0.660156H4.33886L7.33371 4.62073L10.8 0.660156ZM10.0611 11.7996H11.2263L3.704 1.85216H2.45257L10.0611 11.7996Z" fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_166_20945">
+                            <rect width="13.7143" height="13.7143" fill="white" />
+                        </clipPath>
+                    </defs>
                 </svg>
             </Link>
             {/* Insta */}
-            <Link href={instagram_url || ""} className="w-[34px] h-[34px] rounded-full bg-[#fff] flex items-center justify-center border-[1px] border-[#4A3F35] outline-4 outline-[#fff]">
-                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M4.41747 0.916504H10.578C12.8915 0.916504 14.7833 2.78493 14.7833 5.06747V11.2114C14.7833 13.4945 12.8915 15.3623 10.578 15.3623H4.41747C2.10401 15.3623 0.211914 13.4945 0.211914 11.2114V5.06747C0.211914 2.78493 2.10399 0.916504 4.41747 0.916504ZM7.45836 4.23922C9.70648 4.23922 11.5308 6.06354 11.5308 8.31166C11.5308 10.5601 9.70648 12.3841 7.45836 12.3841C5.2097 12.3841 3.38565 10.5601 3.38565 8.31166C3.38565 6.06354 5.2097 4.23922 7.45836 4.23922ZM7.45836 5.61472C8.94708 5.61472 10.1553 6.82269 10.1553 8.31166C10.1553 9.80063 8.94706 11.0089 7.45836 11.0089C5.96912 11.0089 4.76115 9.80066 4.76115 8.31166C4.76115 6.82269 5.96912 5.61472 7.45836 5.61472ZM11.3982 3.67478C11.7634 3.67478 12.0595 3.97086 12.0595 4.33578C12.0595 4.70098 11.7634 4.99705 11.3982 4.99705C11.0333 4.99705 10.7372 4.70098 10.7372 4.33578C10.7372 3.97086 11.0333 3.67478 11.3982 3.67478ZM4.92087 2.09652H10.0752C12.0105 2.09652 13.5934 3.67155 13.5934 5.59621V10.7763C13.5934 12.7009 12.0106 14.2757 10.0752 14.2757H4.92087C2.98549 14.2757 1.4024 12.7009 1.4024 10.7763V5.59616C1.4024 3.67155 2.98549 2.09652 4.92087 2.09652Z" fill="#4A3F35" />
+            <Link href={instagram_url || ""} className="w-8 h-8 rounded-full bg-[#CFAA45] flex items-center justify-center border border-[#fff] outline-4 outline-[#CFAA45]">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fillRule="evenodd" clipRule="evenodd" d="M3.95818 0H9.75636C11.9337 0 13.7143 1.75851 13.7143 3.90679V9.68929C13.7143 11.8381 11.9337 13.5961 9.75636 13.5961H3.95818C1.7808 13.5961 0 11.8381 0 9.68929V3.90679C0 1.75851 1.78078 0 3.95818 0ZM6.8202 3.12726C8.93608 3.12726 10.6531 4.84427 10.6531 6.96015C10.6531 9.07629 8.93608 10.793 6.8202 10.793C4.70381 10.793 2.98706 9.07629 2.98706 6.96015C2.98706 4.84427 4.70381 3.12726 6.8202 3.12726ZM6.8202 4.42185C8.22135 4.42185 9.3585 5.55876 9.3585 6.96015C9.3585 8.36154 8.22133 9.49871 6.8202 9.49871C5.41856 9.49871 4.28164 8.36156 4.28164 6.96015C4.28164 5.55876 5.41856 4.42185 6.8202 4.42185ZM10.5283 2.59603C10.872 2.59603 11.1507 2.87469 11.1507 3.21814C11.1507 3.56186 10.872 3.84051 10.5283 3.84051C10.1849 3.84051 9.90619 3.56186 9.90619 3.21814C9.90619 2.87469 10.1849 2.59603 10.5283 2.59603ZM4.43196 1.1106H9.28307C11.1046 1.1106 12.5943 2.59299 12.5943 4.40443V9.27981C12.5943 11.0912 11.1046 12.5734 9.28307 12.5734H4.43196C2.61043 12.5734 1.12046 11.0912 1.12046 9.27979V4.40439C1.12046 2.59299 2.61043 1.1106 4.43196 1.1106Z" fill="white" />
                 </svg>
+
             </Link>
             {/* Facebook */}
-            <Link href={facebook_url || ""} className="w-[34px] h-[34px] rounded-full bg-[#fff] flex items-center justify-center border-[1px] border-[#4A3F35] outline-4 outline-[#fff]">
-                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M5.7715 3.64867H8.04812V0.916504H5.7715C4.01414 0.916504 2.58433 2.34632 2.58433 4.10368V5.46975H0.762695V8.20221H2.58378V15.4879H5.31621V8.20221H7.59286L8.04812 5.46978H5.31621V4.10368C5.31621 3.85681 5.52463 3.64842 5.77148 3.64842V3.64869L5.7715 3.64867Z" fill="#4A3F35" />
+            <Link href={facebook_url || ""} className="w-8 h-8 rounded-full bg-[#CFAA45] flex items-center justify-center border border-[#fff] outline-4 outline-[#CFAA45]">
+                <svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fillRule="evenodd" clipRule="evenodd" d="M4.71418 2.57145H6.85688V0H4.71418C3.06019 0 1.71448 1.34571 1.71448 2.9997V4.28541H0V6.85714H1.71396V13.7143H4.28567V6.85714H6.4284L6.85688 4.28544H4.28567V2.9997C4.28567 2.76735 4.48183 2.57121 4.71416 2.57121V2.57147L4.71418 2.57145Z" fill="white" />
                 </svg>
             </Link>
         </div>

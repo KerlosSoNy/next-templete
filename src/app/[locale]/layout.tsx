@@ -6,10 +6,10 @@ import './globals.css'
 import { getLocale } from "next-intl/server";
 import { ThemeInitializer } from "@/components/themeinit";
 import StoreProvider from "./StoreProvider";
-import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import Toast from "@/components/toast/toast";
 import { Almarai } from "next/font/google";
+import Navbar from "@/components/navbar/navbar";
 
 
 const neoSansArabic = localFont({
@@ -34,8 +34,8 @@ const almarai = Almarai({
 });
 
 export const metadata: Metadata = {
-  title: "Robita",
-  description: "Robita is a leading e-commerce store offering the latest products at the best prices. We always strive to provide a distinctive and easy shopping experience for our valued customers.",
+  title: "Muhra",
+  description: "Muhra E-commerce Platform",
 };
 
 export default async function RootLayout({
@@ -51,7 +51,7 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${locale === "ar" ? neoSansArabic.variable : ""} ${almarai.variable} antialiased pt-[54px] max-w-full overflow-x-hidden`}
+        className={`${locale === "ar" ? neoSansArabic.variable : ""} ${almarai.variable} font-family-arabic antialiased pt-[140px] max-w-full overflow-x-hidden`}
         suppressHydrationWarning
       >
         <NextIntlClientProvider>

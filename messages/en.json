@@ -9,6 +9,34 @@
         "categories": "Categories",
         "faq": "FAQ"
     },
+    "navbar": {
+        "home": "Home",
+        "products": "Products",
+        "contact_us": "Contact Us",
+        "login": "Login",
+        "about": "About",
+        "myOrders": "My Orders",
+        "signup": "Sign Up",
+        "favorite": "Favorite",
+        "categories": "Categories"
+    },
+    "profile_drow_down": {
+        "profile": "Profile",
+        "address": "Address",
+        "logout": "Logout"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "all": "All",
+        "not_readed": "Unread",
+        "show_more": "Show More",
+        "from_minutes_ago": "from {count} minutes ago",
+        "from_hours_ago": "from {count} hours ago",
+        "from_days_ago": "from {count} days ago",
+        "from_minutes_later": "from {count} minutes later",
+        "from_hours_later": "from {count} hours later",
+        "from_days_later": "from {count} days later"
+    },
     "new_footer": {
         "description": "We are a leading e-commerce store offering the latest products at the best prices. We always strive to provide a distinctive and easy shopping experience for our valued customers.",
         "location": {
@@ -74,7 +102,6 @@
     "products": "Products",
     "no_notifications": "No notifications found",
     "no_notifications_description": "There are no notifications available at the moment, please wait and notifications will be added soon",
-    "notifications": "Notifications",
     "search_notifications": "Search for notifications",
     "mark_all_read": "Mark All as Read",
     "view_all_notifications": "View All Notifications",
